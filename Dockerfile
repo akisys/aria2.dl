@@ -5,8 +5,7 @@ ENV \
   ARIA_RPC_SECRET="" \
   ARIA_DIR="/var/lib/seedbox" \
   ARIA_ENABLE_DHT="false" \
-  ARIA_MAX_CONCURRENT_DOWNLOADS="10" \
-  USER=nobody
+  ARIA_MAX_CONCURRENT_DOWNLOADS="10"
 COPY aria2wrapper.sh /
 CMD /aria2wrapper.sh
 
